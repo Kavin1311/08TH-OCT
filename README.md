@@ -18,7 +18,7 @@ driver.get("https://www.selenium.dev/selenium/web/web-form.html")
 time.sleep(3)
 
 # TC02 - Locate username Attribute XPath
-username = driver.find_element(By.XPATH,"//input[@name='my-text']").send_keys("DK")
+username = driver.find_element(By.XPATH,"//input[@name='my-text']").send_keys("kavin")
 time.sleep(2)
 
 # TC03 - Enter password Attribute XPath
